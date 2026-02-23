@@ -33,7 +33,7 @@ Plaintext
 Clone the repository:
 
 Bash
-git clone https://github.com/Premkumar@5861/gym-website.git
+git clone https://github.com/Premkumar5861/gym-website.git
 Open the project:
 Navigate to the project folder and open index.html in any web browser.
 
