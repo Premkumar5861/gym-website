@@ -1,0 +1,90 @@
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background: size 100px; 
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9;
+
+}
+.left{
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.left img{
+    width: 100px;
+
+}
+.left div{
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    font-size: 20px;
+    line-height: 5px;
+}
+.mid{
+    display:block;
+    width: 40%;
+    margin: 9px auto;
+    
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+   
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 1px;
+    
+}
+.navbar li a:hover,.navbar li a:active{
+    color: aqua;
+    text-decoration: wavy;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.right button:hover{
+    color: white;
+    background-color: gray;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+   
+}
+.button{
+    margin: 10px 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container{
+    border: 2px solid white;
+    border-radius:  5px;
+    width: 45% ;
+    padding: 15px;
+    margin: 34px 284px;
+
+    
+}
+.form input{
+    text-align: center;
+    justify-content: flex-end;
+    display: block;
+    width: 270px;
+    margin: 10px;
+
+}
